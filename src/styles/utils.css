@@ -1,0 +1,48 @@
+.sr-only {
+  /* hides element for sighted users */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Typography */
+.fs-900 {
+  font-size: var(--fs-900);
+}
+.fs-800 {
+  font-size: var(--fs-800);
+}
+
+.fs-900,
+.fs-800 {
+  line-height: 1.1;
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.fw-extra-bold {
+  font-weight: var(--fw-extraBold);
+}
+
+/* Colors */
+.text-primary-400 {
+  color: var(--clr-primary-400);
+}
+/* Colors */
+.text-neutral-800 {
+  color: var(--clr-neutral-800);
+}
+.text-neutral-600 {
+  color: var(--clr-neutral-600);
+}
+.text-neutral-100 {
+  color: var(--clr-neutral-100);
+}
